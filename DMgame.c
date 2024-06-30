@@ -33,5 +33,12 @@ int main(void){
             }
     }
     printf("Heads :%d  Tails :%d\n",h_coin,t_coin);
+
+    if(h_coin > t_coin){
+        printf("You won\n");
+    }else{
+        printf("You lost.\n");
+    }
+
     return 0;
 }
