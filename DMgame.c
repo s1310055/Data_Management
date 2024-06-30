@@ -12,6 +12,13 @@ int main(void){
 
     int h_coin = 0;
     int t_coin = 0;
+    char user_name[100];
+
+
+    printf("Who are you?\n>");
+
+    scanf("%s",user_name);
+    printf("Hello, %s!\n",user_name);
 
     printf("Tossing a coin...\n");
 
